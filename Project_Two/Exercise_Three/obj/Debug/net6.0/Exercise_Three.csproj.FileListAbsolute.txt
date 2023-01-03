@@ -1,0 +1,15 @@
+C:\Users\Youssef Baba\Desktop\My_Computer\My-Projects\Practical_Works\Csharp_Projects_Final_Version\Project_Two\Exercise_Three\bin\Debug\net6.0\Exercise_Three.exe
+C:\Users\Youssef Baba\Desktop\My_Computer\My-Projects\Practical_Works\Csharp_Projects_Final_Version\Project_Two\Exercise_Three\bin\Debug\net6.0\Exercise_Three.deps.json
+C:\Users\Youssef Baba\Desktop\My_Computer\My-Projects\Practical_Works\Csharp_Projects_Final_Version\Project_Two\Exercise_Three\bin\Debug\net6.0\Exercise_Three.runtimeconfig.json
+C:\Users\Youssef Baba\Desktop\My_Computer\My-Projects\Practical_Works\Csharp_Projects_Final_Version\Project_Two\Exercise_Three\bin\Debug\net6.0\Exercise_Three.dll
+C:\Users\Youssef Baba\Desktop\My_Computer\My-Projects\Practical_Works\Csharp_Projects_Final_Version\Project_Two\Exercise_Three\bin\Debug\net6.0\Exercise_Three.pdb
+C:\Users\Youssef Baba\Desktop\My_Computer\My-Projects\Practical_Works\Csharp_Projects_Final_Version\Project_Two\Exercise_Three\obj\Debug\net6.0\Exercise_Three.csproj.AssemblyReference.cache
+C:\Users\Youssef Baba\Desktop\My_Computer\My-Projects\Practical_Works\Csharp_Projects_Final_Version\Project_Two\Exercise_Three\obj\Debug\net6.0\Exercise_Three.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Youssef Baba\Desktop\My_Computer\My-Projects\Practical_Works\Csharp_Projects_Final_Version\Project_Two\Exercise_Three\obj\Debug\net6.0\Exercise_Three.AssemblyInfoInputs.cache
+C:\Users\Youssef Baba\Desktop\My_Computer\My-Projects\Practical_Works\Csharp_Projects_Final_Version\Project_Two\Exercise_Three\obj\Debug\net6.0\Exercise_Three.AssemblyInfo.cs
+C:\Users\Youssef Baba\Desktop\My_Computer\My-Projects\Practical_Works\Csharp_Projects_Final_Version\Project_Two\Exercise_Three\obj\Debug\net6.0\Exercise_Three.csproj.CoreCompileInputs.cache
+C:\Users\Youssef Baba\Desktop\My_Computer\My-Projects\Practical_Works\Csharp_Projects_Final_Version\Project_Two\Exercise_Three\obj\Debug\net6.0\Exercise_Three.dll
+C:\Users\Youssef Baba\Desktop\My_Computer\My-Projects\Practical_Works\Csharp_Projects_Final_Version\Project_Two\Exercise_Three\obj\Debug\net6.0\refint\Exercise_Three.dll
+C:\Users\Youssef Baba\Desktop\My_Computer\My-Projects\Practical_Works\Csharp_Projects_Final_Version\Project_Two\Exercise_Three\obj\Debug\net6.0\Exercise_Three.pdb
+C:\Users\Youssef Baba\Desktop\My_Computer\My-Projects\Practical_Works\Csharp_Projects_Final_Version\Project_Two\Exercise_Three\obj\Debug\net6.0\Exercise_Three.genruntimeconfig.cache
+C:\Users\Youssef Baba\Desktop\My_Computer\My-Projects\Practical_Works\Csharp_Projects_Final_Version\Project_Two\Exercise_Three\obj\Debug\net6.0\ref\Exercise_Three.dll

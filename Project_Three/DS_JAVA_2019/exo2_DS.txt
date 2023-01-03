@@ -1,0 +1,229 @@
+/*Exo 2
+Nous souhaitons realiser une solution  de gestion d'une agence de location de Voiture .Les classes principales de ce programme sont : la classe Voiture ,la classe Client et la classe Agence 
+Classe/Interface :                           Caracteristique  :   
+Voiture                                      -Une voiture est caractérisée par son immatriculation, sa marque et son prix. Deux voitures sont égales s’ils ont la même immatriculation et la même marque.
+
+Client                                       -Un client est caractérisé par un code, un nom et un prénom. Deux clients sont égaux s’ils ont le même code.
+
+ListVoitures			             -Cette agence a mis à la disposition de ces clients la possibilité de louer plusieurs voitures, pour cela 
+					      on a créé une classe ListVoitures qui permet de stocker un ensemble de voiture dans un vecteur. Cette 
+					      classe permet d’ajouter, de supprimer une voiture (On ne peut pas appliquer cette fonction pour une 
+					      voiture qui n'existe pas sinon il faut gerer une VoitureException ) et d’afficher la liste des voitures.
+
+
+
+Critere                                      Cette agence offre à ces clients la possibilité de choisir les voitures à louer en fonction de différents
+CritereMarque				     critères. Il est possible de sélectionner dans la liste des voitures à louer toutes les voitures
+CriterePrix				     satisfaisant un critère donné .Pour cela on aurra la methode boolean estSatisfaitPar(Voiture v) qui indique si le client est 
+                                             satisfait par une voiture ;  cela se détermine selon les critères :
+                                             -CritereMarque(Choix selon la marque )
+                                             -Critere Prix(Choix selon le prix )
+
+
+
+
+-Une agence est caractérisée par un nom, un parking de type ListVoitures qui permet d'enregistrer les
+voitures de l'agence de location et un ClientVoitureLoue de type HashTable (la partie clé est Client, la
+partie valeur est ListVoitures) qui permet d'enregistrer pour chaque client la liste des voitures
+actuellement louées.les fonctions standard pour la gestion de location de voiture sont:
+
+Fonction :                                                                             Description :
+-void ajoutVoiture(Voiture v)                                                          -ajouter une voiture a la liste des voitures de l'agence 
+
+-void suppVoiture(Voiture v)                                                           -supprimer une voiture de la liste des voitures de l'angence en appelant la methode supprimer de la classe ListeVoiture
+                                                                                         
+-void LoueClientVoiture(Client cl ,  voiture v)                                        -louer une voiture a un client 
+
+-public Vector<Voiture> selectVoitureSelonCritere(Critere c)                           -retourner la liste des voitures  selon un critere defini 
+
+-public Vector<Voiture> VoitureLoue()                				       -retourner la liste des voitures actuellement en état de location
+
+-public Void AffichClientVoiture()                                                     -afficher les clients et leurs voitures louees selon l'ordre alphabetique decroissant  des noms de clients
+
+
+
+
+
+
+Travail demande : Compte les codes suivants s'il ya d'autres elements a developper n'hesitez pas a les ecrire 
+
+
+1.public class Voiture {                                                        2.public class Client
+public int immatriculation;                                                     {public int code ;     
+public String marque ;                                                          public String nom ;
+pubic double prixLocation;                                                      public String prenom;
+public Voiture (int immatriculation,String                                      public Client(int code,String nom ,String prenom ){.......
+marque,double prixLocation){........
+
+
+
+
+
+}
+public String toString(){...........                                             }
+                                                                                public String toString(){..........
+
+
+}                                                                               }
+}                                                                               }
+                                                                                
+
+
+
+3.definir l'entite Critere                             4.CritereMarque                     5.CriterePrix
+
+..........                                             ................                      .................
+
+
+
+6. public class ListVoitures {
+
+public Vector <Voiture> voitures ;
+
+public ListVoitures (Vector <Voiture> voitures ){......
+
+
+
+
+
+}
+
+public ListVoitures (){................
+
+
+}
+
+public void ajoutVoiture(Voiture v){....................
+
+
+
+
+
+
+}
+
+
+
+public void supprimeVoiture (Voiture v ) throwsVoitureException{
+
+
+
+
+   
+
+}
+
+//Affiche la liste des voitures 
+public void affiche(){.................
+}}
+
+
+
+7. public class Agence {
+public String nom;
+public ListVoitures vs ;
+public HashTable <Client,ListVoitures> ClientVoitureLoue;
+public Agence (String nom){...................
+
+
+
+}
+public void ajoutVoiture(Voiture v){...................
+
+
+}
+
+
+public void suppVoiture (Voiture v){................
+
+
+}
+
+public void LoueClientVoiture(Client cl,Voiture v){.........
+
+
+
+}
+public Vector<Voiture> VoitureLoue(){...........
+
+
+}
+
+
+public void AffichClientVoiture(){...........
+
+}
+
+public Vector<Voiture> selectVoitureSelonCritere(Critere c){...........
+
+
+
+
+
+}
+
+
+8. Class VoitureException
+
+
+
+
+{
+
+
+
+
+
+}
+
+9.Exemple de class main 
+public class Test{
+
+public static void main (String[] args ){
+Voiture v1=new Voiture(123,"polo",125);
+Voiture v2=new Voiture(555,"bm",50000);
+Voiture v3=new Voiture (555,"m",5000);
+ListVoitures L =new ListVoitures();
+//Appeller les methodes d'ajout ;suppression et de l'affichage 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                  
+                                             

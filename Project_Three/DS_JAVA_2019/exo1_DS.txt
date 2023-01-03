@@ -1,0 +1,21 @@
+/*
+// Exo1
+1.
+a)
+-Classe A {
+void f(){ System.out.println("A");}}
+-Class B extends A {
+void f(){System.out.println("B");}}
+-Class C extends B {}
+-Dans le main :A x=new C();
+x.f();}
+b)
+on definit une Classe abstract D qui herite d'une classe C: abstract D extends C
+Apres on fait appel a une methode affiche deja definie dans cette classe .Dans le main on met cet appel 
+D d1=new D()
+d1.affiche()
+2.
+Expliquer pourquoi l'heritage multiple est interdit en java ?
+       
+
+
